@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Melkon Art - Animated-transitions</title>
+    <title>Melkon Art - Non-Animated</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -31,9 +31,15 @@
 
 
 </head>
+<style>
+    .header-social-links>.bi-cart {
+        cursor: pointer;
+    }
+</style>
 
 <body>
 
+    <!-- ======= Header ======= -->
     <!-- ======= Header ======= -->
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -46,81 +52,88 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown"><a href="#"><span>Store</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li class="dropdown">
-                                <a href="animated.html"><span>Animated Product</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                                <ul>
-                                    <li><a href="animated-emotes.html">Animated Emotes</a></li>
-                                    <li><a href="animated-logos.html">Animated Logo</a></li>
-                                    <li><a href="animated-panel.html">Animated Panel</a></li>
-                                    <li><a href="animated-alerts.html">Animated Alert</a></li>
-                                    <li><a href="animated-transitions.html">Animated Transition</a></li>
-                                    <li><a href="animated-screen-package.html">Animated Screen Package</a></li>
-                                    <li><a href="animated-overlay.html">Animated Overlay</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="non-animated/none-animated.html"><span>Non-Animated Product</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                                <ul>
-                                    <li><a href="emotes.html">Emotes</a></li>
-                                    <li><a href="logos.html">Logo</a></li>
-                                    <li><a href="panels.html">Panel</a></li>
-                                    <li><a href="sub-badges-&-bit-badges.html">Sub Badges & Bit Badges</a></li>
-                                    <li><a href="packages.html">Packages</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li><a href="custom.html">Custom</a></li>
+                    <li class="dropdown"><a href="store.html"><span>Store</span></a>
                     </li>
-                    <li><a href="commission.html">commission </a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li>
                         <a href="login-signup.html">Login Signup</a>
                     </li>
                 </ul>
-            </nav>
-            <!-- .navbar -->
-        </div>
-        <div class="header-social-links">
-            <a href="https://melkon.com/cart/" title="View your shopping cart">
-                <i class="bi-cart"></i>
-                <span class="text-white font14">$0.00</span>
-            </a>
+
+                <!-- .navbar -->
+                <div class="header-social-links">
+                    <a class="bi-cart">$0.0</a>
+                </div>
         </div>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         </div>
+        </nav>
+
     </header>
+    <br/>
+    <div class="container-fluid d-flex " style="margin-top: 15px; border-radius:10px;">
+        <nav id="navbar" class="navbar " style="margin: left 0px;">
+            <ul>
+                <li><a href="emotes.html" class="active">Emote</a></li>
+                <li><a href="logos.html">Logos</a></li>
+                <li><a href="panels.html">Panels</a></li>
+                <li><a href="transitions.html">Transitions</a></li>
+                <li><a href="animated.html">Pfp</a></li>
+                <li><a href="custom.html">Sub badges</a></li>
+                <li><a href="merch.html">Banners</a></li>
+                <li><a href="merch.html">Overlay </a></li>
+                <li><a href="merch.html">Alerts </a></li>
+                <li><a href="merch.html">Character Art </a></li>
+                <li><a href="merch.html">Portraits  </a></li>
+                <li><a href="merch.html">Png Model  </a></li>
+                <li class="dropdown">
+                    <a href="vtuber.html"><span>More</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                        <li><a href="vtuber.html">Vtuber model </a></li>
+                        <li><a href="screen-package.html">Screen Packages </a></li>
+                    </ul>
+
+            </ul>
+
+            <!-- .navbar -->
+    </div>
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    </div>
+    </nav>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="assets/img/allien.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="assets/img/allien.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/allien.png" class="d-block w-100" alt="...">
-                </div>
+    <section class="align-items-baseline" data-aos="fade" data-aos-delay="500">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img class="a" src="assets/img/6.png" class="d-block w-100" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <div class="carousel-item" data-bs-interval="2000">
+                <img class="a" src="assets/img/10.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="a" src="assets/img/7.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img class="a" src="assets/img/2.png" class="d-block w-100" style="size: 1000px;" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        </div>
         <!-- End Hero Section -->
     </section>
-    <main id="main" data-aos="fade" data-aos-delay="1000">
 
+    <main id="main" data-aos="fade" data-aos-delay="500">
         <!-- ======= Gallery Section ======= -->
         <section id="gallery" class="gallery">
             <div class="container-fluid">
@@ -130,7 +143,7 @@
                         <div class="gallery-item h-100">
                             <img src="assets/img/tired artistpng.png" class="img-fluid" alt="" id="artis">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
-                                <a href="assets/img/tired artistpng.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                                <a href="assets/img/tired artistpng.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></a></i>
                             </div>
                         </div>
                         <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
@@ -150,6 +163,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -163,6 +177,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -176,6 +191,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -189,6 +205,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -202,6 +219,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -215,6 +233,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -228,6 +247,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -241,6 +261,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -254,6 +275,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -280,6 +302,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -306,6 +329,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -319,6 +343,7 @@
                             </span>
                             </span>
                         </div>
+
                     </div>
                     <!-- End Gallery Item -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
@@ -332,6 +357,235 @@
                             </span>
                             </span>
                         </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <div class="container-fluid">
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/tired artistpng.png" class="img-fluid" alt="" id="artis">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/tired artistpng.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></a></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/1.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/1.png" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/2.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/2.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/3.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/3.png" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/5.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/5.png" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/6.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/6.png" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/7.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/7.png" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/8.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/8.png" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/9.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/9.png" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/10.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/10.png" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/11.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/11.png" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/cat flying.png" class="img-fluid" alt="" id="cat">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/cat flying.png" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/ch1.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/ch1.png" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/deer.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/deer.png" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/logo.png" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/logo.png" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- End Gallery Item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="assets/img/mlogo.jpeg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/img/mlogo.jpeg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between"> <span class="text-left">Ravager – Logo</span> <span> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>35.00</bdi>
+                            </span>
+                            </span>
+                        </div>
+
                     </div>
                     <!-- End Gallery Item -->
 
@@ -339,6 +593,7 @@
 
             </div>
         </section>
+        <br/><br/>
         <!-- End Gallery Section -->
 
     </main>
@@ -376,20 +631,23 @@
                         </ul>
                     </li>
                     <li>
-                        <h2 class="ct-footer-list-header">Services</h2>
+                        <h2 class="ct-footer-list-header">Category</h2>
                         <ul>
-                            <li>
-                                <a href="index.html">Ready to Use</a>
-                            </li>
-                            <li>
-                                <a href="animated.html">Animated Stuff</a>
-                            </li>
-                            <li>
-                                <a href="animated-transitions.html">Hot Items</a>
-                            </li>
-                            <li>
-                                <a href="custom.html">Custom Work</a>
-                            </li>
+                            <li><a href="emotes.html" class="active">Emote</a></li>
+                            <li><a href="custom.html"><span>Custom</span></a></li>
+                            <li><a href="logos.html">Logos</a></li>
+                            <li><a href="panels.html">Panels</a></li>
+                            <li><a href="transitions.html">Transitions</a></li>
+                            <li><a href="animated.html">Pfp</a></li>
+                            <li><a href="custom.html">Sub badges</a></li>
+                            <li><a href="merch.html">Banners</a></li>
+                            <li><a href="merch.html">Overlay </a></li>
+                            <li><a href="merch.html">Alerts </a></li>
+                            <li><a href="merch.html">Character Art </a></li>
+                            <li><a href="merch.html">Portraits  </a></li>
+                            <li><a href="merch.html">Png Model  </a></li>
+                            <li><a href="merch.html">Vtuber model </a></li>
+                            <li><a href="merch.html">Screen Packages </a></li>
                             <li>
                                 <a href="merch.html">Merch</a>
                             </li>
@@ -440,11 +698,9 @@
         </div>
         <!-- End Footer -->
 
-        <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-envelope"></i></a>
 
-        <div id="preloader">
-            <div class="line"></div>
-        </div>
+
     </section>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
