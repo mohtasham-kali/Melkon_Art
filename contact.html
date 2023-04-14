@@ -28,17 +28,57 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="./css" rel="stylesheet">
+<link href="./css(1)" rel="stylesheet">
+<link href="./css(2)" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
 
+<link rel="stylesheet" href="./Footer 01_files/bootstrap.min.css">
+
+<link rel="stylesheet" href="./style(1).css">
+
+
+
+<style>
+    @keyframes swiper-slide{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    @keyframes swiper-slide {
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+    }
+</style>
+
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="./jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="./nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.5.0, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
 </head>
 <style>
     .header-social-links>.bi-cart {
         cursor: pointer;
     }
-    
+    .contain {
+        margin-top: 104px;
+    }
+    .btn-dark {
+        margin-left: 105px;
+        background-color: #fff;
+    }
     #header {
         margin: -4px -10px 0;
     }
-    
     .contact .email,
     .contact .name,
     .contact .tel {
@@ -209,9 +249,11 @@
     .body-brand,
     .body-brand-contact,
     .body-contact {
-        background: linear-gradient(to bottom, #0f0c29, #081d2b, #0e3249);
+        background-color: #141D2A;
     }
-    
+    #header{
+        margin: 0px 0px 0px;
+    }
     .container {
         margin-top: 100px;
     }
@@ -227,11 +269,12 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="custom.html">Custom</a></li>
-                <li class="dropdown"><a href="store.html"><span>Store</span></a>
+                <li><a href="merch.html">Merch</a></li>
+                <li><a href="store.html"><span>Store</span></a>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
                 <li>
                     <a href="login-signup.html">Login Signup</a>
                 </li>
@@ -241,12 +284,12 @@
             <div class="header-social-links">
                 <a class="bi-cart">$0.0</a>
             </div>
-    </div>
-    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    </div>
-    </nav>
-
+        </div>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    
+</div>
+</nav>
 </header>
 <!-- End Header -->
 
@@ -270,7 +313,7 @@
             <div class="column column--right">
                 <div class="contact">
                     <form novalidate="" id="visibleForm" name="visible_form" enctype="multipart/form-data" method="POST"><input class="name" type="text" name="name" placeholder="Name and Surname" value=""><span class="error"></span><input class="email" type="email" name="email" placeholder="Email (required)" required="" value=""><span class="error"></span>
-                        <input class="tel" type="tel" name="phone" placeholder="Telephone" value=""><span class="error"></span><textarea class="message" name="message" rows="12" placeholder="Message content"></textarea>
+                       <textarea class="message" name="message" rows="12" placeholder="Message content"></textarea>
                         <div class="consent" style="margin-bottom: 40px;"><label class="consent"><input class="consent-check" type="checkbox" id="consent" value="false"></label><span>I consent to the processing of my personal details indicated above by Modern Forms, Dobrzechow 446B, 38-100 Strzyzow in order to ensure proper service for website users, order completion and communication with other users who agreed to it. <a href="/privacy-policy">(Privacy policy)</a></span>
                             <span class="error"></span>
                         </div><button class="cta unactive" type="submit" disabled="">Send</button>
@@ -287,115 +330,103 @@
         </div>
     </div>
     <br/>
-    <section>
-        <div class="container-fluid footer">
-            <div class="container">
-                <form name="contentForm" enctype="multipart/form-data" method="post" action="">
-                    <div class="ct-footer-pre text-center-lg">
-                        <div class="inner">
-                            <span></span><span>Join melkon Art to get 25% discount</span>
-                        </div>
-                        <div class="inner">
-                            <div class="form-group">
-                                <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value="">
-                                <button type="submit" class="btn btn-motive">Join</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <ul class="ct-footer-list text-center-sm">
-                    <li>
-                        <h2 class="ct-footer-list-header">Learn More</h2>
-                        <ul>
-                            <li>
-                                <a href="index.html">Company</a>
-                            </li>
-                            <li>
-                                <div class="justify-content-center">
-                                    <a href="assets/img/tos.png" title="Terms of Service" class="glightbox">Tos</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">Category</h2>
-                        <ul>
-                            <li><a href="emotes.html" class="active">Emote</a></li>
-                            <li><a href="custom.html"><span>Custom</span></a></li>
-                            <li><a href="logos.html">Logos</a></li>
-                            <li><a href="panels.html">Panels</a></li>
-                            <li><a href="transitions.html">Transitions</a></li>
-                            <li><a href="animated.html">Pfp</a></li>
-                            <li><a href="custom.html">Sub badges</a></li>
-                            <li><a href="merch.html">Banners</a></li>
-                            <li><a href="merch.html">Overlay </a></li>
-                            <li><a href="merch.html">Alerts </a></li>
-                            <li><a href="merch.html">Character Art </a></li>
-                            <li><a href="merch.html">Portraits  </a></li>
-                            <li><a href="merch.html">Png Model  </a></li>
-                            <li><a href="merch.html">Vtuber model </a></li>
-                            <li><a href="merch.html">Screen Packages </a></li>
-                            <li>
-                                <a href="merch.html">Merch</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">Comming Soon!</h2>
-                        <ul>
-                            <li>
-                                <a href="commingsoon.html">Web Designing</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Web Development</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Software Development</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Mobile Applications</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Web-Applications</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">API Development</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Digital Marketing and SEO</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">Monitization</a>
-                            </li>
-                            <li>
-                                <a href="commingsoon.html">More..</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="ct-footer-post">
-                <div class="container">
-                    <div class="inner-right">
-                        <p>Melkon.com @2023.&nbsp;<a href="index.html">Privacy Policy</a></p>
-
-                    </div>
-                </div>
-            </div>
+  
+    <!-- ======= Footer ======= -->
+    <footer class="footer-20192">
+        <div class="site-section">
+        <div class="contain">
+        <div class="cta d-block d-md-flex align-items-center px-5">
+        <div>
+        <h2 class="mb-0">Join Melkon Art to get 20% Discount!</h2>
+        <h3 class="text-dark">Let's get started!</h3>
         </div>
-        <!-- End Footer -->
-
-        <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-envelope"></i></a>
-
-
-    </section>
+        <div class="ml-auto">
+        <a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#" class="btn btn-dark rounded-0 py-3 px-5">Join</a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm">
+            <img src="assets/img/logo.png" style="width: 30px;" alt="">
+        <a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#" class="footer-logo">Melkon Art</a>
+        </div>
+        <div class="col-sm">
+        <h3>Company</h3>
+        <ul class="list-unstyled links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        
+        </ul>
+        </div>
+        <div class="col-sm">
+        <h3>Services</h3>
+        <ul class="list-unstyled links">
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#">Twitch Artwork</a></li>
+        <li><a href="vtuber.html">Vtuber</a></li>
+        <li><a href="characterart.html">Character Art</a></li>
+        <li><a href="animated.html">Animations</a></li>
+        <li><a href="banners.html">Banners</a></li>
+        <li><a href="about.html">Development</a></li>
+        </ul>
+        </div>
+        <div class="col-sm">
+        <h3>Further Information</h3>
+        <ul class="list-unstyled links">
+        <li><a href="tos.html">Terms Of Service</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+        </div>
+        <div class="col-md-3">
+        <h3>Follow us</h3>
+        <ul class="list-unstyled social">
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-facebook"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-twitter"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-linkedin"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-twitch"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-discord"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-youtube"></i></a></li>
+        </ul>
+        <h3>Payment Method</h3>
+        <ul class="list-unstyled social">
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-google"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-credit-card"></i></a></li>
+        <li><a href="https://preview.colorlib.com/theme/bft/bootstrap-footer-01/#"><i class="bi-paypal"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </footer>
+    
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        const swiper = new Swiper('.swiper',{
 
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation:{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!--Login Script-->
 
 </body>
 
